@@ -10,9 +10,12 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.os.Build;
+import android.widget.Button;
 
 
 public class MainActivity extends ActionBarActivity {
+
+    Button submitButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +26,16 @@ public class MainActivity extends ActionBarActivity {
                     .add(R.id.container, new PlaceholderFragment())
                     .commit();
         }
+
+        submitButton = (Button) findViewById(R.id.submit_button);
+        submitButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+
+        });
+
     }
 
 
