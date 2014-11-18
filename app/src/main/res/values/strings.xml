@@ -2,7 +2,8 @@
 <resources>
 
     <string name="app_name">Reddit</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="enter_subreddit">Enter a Subreddit Name Below:</string>
+    <string name="submit_button">Submit</string>
     <string name="action_settings">Settings</string>
 
 </resources>
